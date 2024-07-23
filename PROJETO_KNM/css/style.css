@@ -1,0 +1,221 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #00008d, #367cdd);
+  user-select: none;
+}
+
+.container {
+  width: 400px;
+  /* margin-top: 250px;
+  margin-left: 485px; */
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 15px 15px 20px rgb(0, 0, 0);
+}
+
+img {
+  width: 100px;
+  margin-left: 150px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 50px;
+}
+
+/* .esqueci-senha {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  color: #000000;
+
+
+
+}
+
+
+.Cadastre-se {
+  display: block;
+  /* margin-left: 312px; 
+  text-align: right;
+  color: #000000;
+  margin-bottom: 10px;
+} ? */
+
+.esqueci-senha {
+  float: left;
+  /* Posiciona o primeiro link à esquerda */
+  text-decoration: none;
+  /* Remove a decoração padrão dos links */
+  color: #000;
+}
+
+.Cadastre-se {
+  float: right;
+  /* Posiciona o segundo link à direita */
+  text-decoration: none;
+  /* Remove a decoração padrão dos links */
+  color: #000;
+  /* Define a cor dos links */
+}
+
+a {
+  margin-bottom: 12px;
+}
+
+button[type="submit"] {
+  background-color: #040672;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  width: 420px;
+}
+
+/* button[type="submit"]:hover {
+    background-color: #45a049;
+    margin: 10px;
+  } */
+
+label[for="termos"] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+  margin: 5px;
+}
+
+button[type="submit"]:disabled {
+  opacity: 0.5;
+  cursor: default;
+
+}
+
+
+.mensagem {
+  position: fixed;
+  /* Posicionamento fixo na tela */
+  top: 250px;
+  /* Distância do topo da tela */
+  right: 580px;
+  /* Distância da direita da tela */
+  padding: 10px;
+  /* Espaçamento interno */
+  z-index: 1;
+  font-size: 35px;
+
+  label {
+    color: #fff
+  }
+
+}
+
+.positivo {
+  position: fixed;
+  /* Posicionamento fixo na tela */
+  top: 300px;
+  /* Distância do topo da tela */
+  right: 305px;
+  /* Distância da direita da tela */
+  padding: 10px;
+  /* Espaçamento interno */
+  z-index: 1;
+  font-size: 25px;
+
+  label {
+    color: #fff
+  }
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  display: none;
+}
+
+.password-eye {
+  display: block;
+  /* margin-left: 10px; */
+  cursor: pointer;
+}
+
+.password-eye:hover {
+  color: #333;
+}
+
+/* Estilos para o campo de senha e ícone */
+.password-container {
+  position: fixed;
+  /* width: 100%; */
+}
+
+#senha {
+  padding-right: 10px;
+  /* Ajuste para dar espaço para o ícone */
+}
+
+#toggleSenha {
+  /* position: relative; */
+
+  /* transform: translateY(-50%); */
+  cursor: pointer;
+
+}
+
+
+
+/* Estilos para o campo de senha e ícone */
+.password-container {
+  position: relative;
+  width: 100%;
+}
+
+#senha {
+  width: calc(100% - 40px);
+  /* Ajuste para o ícone de olho */
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#toggleSenha {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
